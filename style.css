@@ -1,0 +1,151 @@
+body {
+  box-sizing: border-box;
+  width: 100%;
+}
+.biggrocery-logo img {
+  width: 400px;
+  transform: rotate(30deg);
+}
+
+#title {
+  background-color: coral;
+}
+.container-fluid {
+  padding: 3% 6%;
+  text-align: center;
+}
+/* Logo */
+.abs {
+  font-size: 1.8rem;
+}
+
+/* container  */
+h1 {
+  margin: 30px;
+  font-size: 3rem;
+}
+.nav-link {
+  font-size: 1.3rem;
+}
+.nav-item {
+  margin: 0 20px;
+}
+
+/* TOP PRODUCTS */
+.top-products-mobile {
+  display: none;
+}
+.row .col-lg-4:hover {
+  transition-duration: 1s;
+  border: 1px solid coral;
+}
+.col-lg-4 img {
+  width: 300px;
+}
+.col-sm-4 img {
+  width: 150px;
+}
+.top-product-title {
+  font-size: 1.5rem;
+}
+.top-products .carousel-inner {
+  background-color: #fff;
+}
+/* Reviews */
+.lady-img img {
+  border-radius: 50%;
+  width: 400px;
+}
+.men-img img {
+  border-radius: 50%;
+  width: 400px;
+}
+.para-review {
+  font-size: x-large;
+  padding: 10% 10% 0 10%;
+}
+
+.slide {
+  background-color: coral;
+}
+.carousel-item {
+  padding: 3% 10%;
+  text-align: center;
+}
+.carousel-inner h1 {
+  text-align: center;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+/* Contact m3 */
+.container-contact {
+  margin: 7% 13%;
+}
+.container-contact h1 {
+  text-align: center;
+  color: rgb(41, 40, 40);
+}
+.data {
+  text-align: center;
+  font-size: x-large;
+  color: rgb(116, 113, 113);
+}
+
+/* Copyright */
+.copyright {
+  padding: 50px 0;
+  text-align: center;
+  color: blanchedalmond;
+  background-color: rgb(53, 49, 49);
+}
+.fab,
+.far {
+  margin: 0% 1%;
+}
+.fab:hover {
+  color: rgb(219, 212, 180);
+}
+.copyright h2 {
+  padding-top: 30px;
+}
+@media (max-width: 500px) {
+  .biggrocery-logo img {
+    width: 250px;
+    transform: rotate(10deg);
+  }
+  h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .lady-img img {
+    width: 250px;
+  }
+  .men-img img {
+    width: 250px;
+  }
+  .abc {
+    position: relative;
+    /* display: none; */
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    /* -webkit-backface-visibility: hidden; */
+    backface-visibility: hidden;
+    transition: transform 0.6s ease-in-out;
+  }
+  .top-products {
+    display: none;
+  }
+  .top-products-mobile {
+    display: block;
+  }
+  .top-products-mobile .carousel-inner {
+    background-color: #fff;
+  }
+  .carousel-item img {
+    width: 250px;
+  }
+}
